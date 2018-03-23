@@ -92,8 +92,7 @@
 //            foreach($results as $result){     (((uitgecommente code)))
             
             while($row = $results->fetch_assoc()){
-                //een while loop loopt zolang de fetch_assoc methode gevulde posities kan maken uit de variabele results
-                //de fetch_assoc returned de opgehaalde rij uit de tabel en zet deze om in een assoc_array die in de variabele $row komt
+                //een while loop wordt gebruikt om de recordset als assocarray in $row te stoppen en zo de resultaten per rij op te vangen.
                 
                 echo "<li>";
                 //de ge-echode list tag zet een stip neer voor een opsomming
